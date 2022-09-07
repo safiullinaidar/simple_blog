@@ -12,16 +12,16 @@
   <% end %>
 
   <div>
-    <%= form.label :title, style: "display: block" %>
+    <%= form.label "Заголовок", style: "display: block" %>
     <%= form.text_field :title %>
   </div>
 
   <div>
-    <%= form.label :content, style: "display: block" %>
+    <%= form.label "Содержание", style: "display: block" %>
     <%= form.rich_text_area :content %>
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit "Создать заметку" %>
   </div>
 <% end %>
